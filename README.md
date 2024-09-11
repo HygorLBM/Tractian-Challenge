@@ -3,8 +3,7 @@ This project is a challenge by Tractian.
 Given specifications, data and a Figma a user should create a application to navigate between data from 3 Units and exhibit a component to view a tree structure. 
 The tree may be filtered by 3 different properties (2 booleans related to the type of components, and a text filter). No libraries should be used to build the UI or tree. 
 
-[<img src="https://i.ibb.co/Dw0smzp/thumbnail.png" width="50%">]([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://www.youtube.com/watch?v=lwpAdCiSTPE) "Tractan Challenge:front-end (HygorLBM)")
-
+[![Tractian-Challenge-hygorlbm](https://img.youtube.com/vi/lwpAdCiSTPE/0.jpg)](https://www.youtube.com/watch?v=lwpAdCiSTPE)
 
 Extras of my solution (+):
 <> Only 25 nodes at max are showed at the tree viewer, so I created pagination in the root nodes of the tree, with 25 root nodes for page. (APEX Unit contains more than 10.000 nodes)
