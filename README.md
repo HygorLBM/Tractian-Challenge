@@ -16,7 +16,7 @@ The video below shows usage and comments about the implementation, with portugue
 - In landscape mode is possible to click in a section with my name and a new tab of the browser will redirect to my Linked In. 
 
 (-) Shortcomings 
-- Loading the page 1 of the APEX tree takes too long (over 20 seconds frequently, a loader is provided).
+- Loading the page 1 of the APEX tree takes too long (over 20 seconds frequently, a loading indicator is provided).
 - There are no tests. Decided to not use Jest or Jasmine since the project was small, it was a bad decision.
 - Usage of React+Redux is way overtuned, should've used props and better componentization to reduce actions and made code cleaner and with better performance.
 - Since the Portrait mode was added at a later point, some minor changes were introduced as conditions in the rendering of some components, what is a bad pratice.
