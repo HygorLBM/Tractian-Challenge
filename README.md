@@ -3,7 +3,7 @@ This project is a challenge by Tractian.
 Given specifications, data and a Figma a user should create a application to navigate between data from 3 Units and exhibit a component to view a tree structure. 
 The tree may be filtered by 3 different properties (2 booleans related to the type of components, and a text filter). No libraries should be used to build the UI or tree. 
 
-[<img src="https://ibb.co/1RFhB76" width="50%">]([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://www.youtube.com/watch?v=lwpAdCiSTPE) "Tractan Challenge:front-end (HygorLBM)")
+[<img src="https://i.ibb.co/Dw0smzp/thumbnail.png" width="50%">]([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://www.youtube.com/watch?v=lwpAdCiSTPE) "Tractan Challenge:front-end (HygorLBM)")
 
 
 Extras of my solution (+):
