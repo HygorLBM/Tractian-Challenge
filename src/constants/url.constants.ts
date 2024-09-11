@@ -1,0 +1,1 @@
+export const AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/hygor-leonardo-baffero-marques/";

@@ -1,0 +1,117 @@
+.title-section {
+    display: flex;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    border-bottom: 1px solid #E3EAEF;
+}
+
+.component-name {
+    font-family: 'Inter';
+    font-size: 18px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.main-info-section {
+    display: flex;
+    padding-top: 24px;
+    margin-left:24px;
+    margin-right: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1.5px solid #E3EAEF;
+}
+
+.image-section {
+    border:1px solid #E3EAEF;
+    border-radius:2px;
+    width: 336px;
+    height: 226px;
+    min-width: 336px;
+    min-height: 226px;
+    margin-right: 16px;
+}
+
+.component-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.component-main-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px !important;
+    width: 100%;
+    justify-content: center;
+}
+
+.component-main-info-portrait {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px !important;
+    width: 100%;
+}
+
+.info-title {
+    margin-top: 24px;
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 24px;
+    color: #24292F;
+}
+
+.info-content {
+    padding-bottom: 24px;
+    padding-top: 4px;
+    font-family: 'Inter';
+    line-height: 24px;
+    color: #88929C;
+    display: flex;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #E3EAEF;
+}
+
+.content-icon {
+    padding-right: 6px;
+}
+
+.content-name {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.component-secondary-info {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: calc(100% - 32px);
+}
+
+.sensor-section {
+    padding-left:16px;
+    width: 55%;
+}
+
+.receptor-section {
+    width: 45%;
+}
+
+.margin-right {
+    margin-right: 24px;
+}
+
+.returning-button-section {
+   margin-left: 25%;
+   margin-top: 32px;
+   width: 20%;
+}
+
+.tree-icon {
+    padding-left: 4px;
+}

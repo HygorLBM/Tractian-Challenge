@@ -1,0 +1,34 @@
+.company-icon {
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.company-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 8px;
+}
+
+.each-company-button {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.company-button {
+    white-space: nowrap;
+    background-color: #023B78;
+    color: white;
+    display: flex;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    border: solid #17192D;
+}
+
+.company-button:hover {
+    cursor: pointer;
+}
+
+.button-selected {
+    background-color: #2188FF;
+}

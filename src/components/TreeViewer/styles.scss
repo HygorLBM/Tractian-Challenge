@@ -1,0 +1,116 @@
+.each-node {
+    display: flex;
+    align-items:center;
+    height: 22px;
+    font-family: 'Roboto';
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-right: 2px;
+}
+
+.not-expandable-padding, .expand-arrow-icon {
+    width: 20px;
+}
+
+.location-icon, .asset-icon, .component-icon, .component-icon-white {
+    height: 22px;
+    width: 22px;
+    padding-right: 4px;
+}
+
+.ellipse-green-icon, .ellipse-red-icon {
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 8px;
+    width: 8px;
+}
+
+.node-name {
+    padding-right: 4px;
+}
+
+.bolt-icon {
+    width: 8.17px;
+    height: 11.57px;
+    padding-right: 4px;
+}
+
+.tree {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 16px;
+}
+
+ul li {
+    position: relative;
+}
+
+.not-final-node ul li::before {
+    position:absolute;
+    left:1px;
+    top:0px;
+    border-left:1px solid #e3eaef;
+    border-bottom:1px solid #e3eaef;
+    content: "";
+    width:0px;
+    height: 1em;  
+}
+
+.final-node::before {
+    position:absolute;
+    left:1px;
+    top:0px;
+    border-left:1px solid #e3eaef;
+    border-bottom:1px solid #e3eaef;
+    content: "";
+    width:8px !important;
+    height: 1em;  
+}
+
+ul li::after {
+    position:absolute;
+    left:1px;
+    bottom: 0px;
+    border-left: 1px solid #e3eaef;
+    content: "";
+    height: 100%;
+}
+
+ul li:last-child::after {
+    position:absolute;
+    left:1px;
+    top:0px;
+    border-left:1px solid #e3eaef;
+    border-bottom:1px solid #e3eaef;
+    content: "";
+    height: 1em;  
+}
+
+.tree summary {
+    cursor: pointer;
+}
+
+.tree details summary::marker {
+    display: none;
+}
+
+.tree details summary::-webkit-marker {
+    display: none;
+}
+
+.tree details > summary:first-of-type {
+    list-style-type: none;
+}
+
+.detailable-node:hover {
+    cursor: pointer;
+}
+
+.node-selected {
+    background: #2188FF;
+    color: white;
+}

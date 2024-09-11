@@ -1,0 +1,26 @@
+.page-header {
+    height: 48px;
+    width: 100%;
+    background-color: #17192D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tractian-logo {
+    height: calc(100%/3);
+    margin-left: 16px;
+}
+
+#author-button {
+    height: calc(100%/2);
+    border: 0px;
+    width:200px;
+    background-image: url(../../assets/author.png);
+    background-repeat: round;
+    background-size: contain;
+}
+
+button:hover {
+    cursor: pointer;
+}

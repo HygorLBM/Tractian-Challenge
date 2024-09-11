@@ -1,0 +1,39 @@
+.whole-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 99%;
+    height: 100%;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    border:1px solid #D8DFE6;
+    border-radius: 4px;
+}
+
+.container-content {
+    display: flex;
+    height: 100%;
+    margin-bottom: 16px;
+}
+
+.tree-section {
+    width: 40%;
+    margin-left: 16px;
+    margin-right: 4px;
+    border: 1px solid #D8DFE6;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-section {
+    width: 60%;
+    margin-right: 16px;
+    margin-left: 4px;
+    border: 1px solid #D8DFE6;
+    border-radius: 2px;
+}
+
+.pagination-section {
+    align-self: center;
+}

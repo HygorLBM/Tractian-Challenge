@@ -1,0 +1,19 @@
+.input-text-filter {
+    padding-left: 8px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background-image: url(../../assets/search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    margin-top:0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #D8DFE6 !important;
+    width: calc(100% - 10px);
+}
+
+.input-text-filter::placeholder {
+    color: #C1C9D2;
+    opacity: 1;
+}

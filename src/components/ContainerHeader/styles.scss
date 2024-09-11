@@ -1,0 +1,57 @@
+.title-and-filters {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 32px);
+}
+
+.assets-title {
+    display: flex;
+    align-items: baseline;
+    font-family: "Inter variant0", "Tofu";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.assets-filters {
+    display: flex;
+}
+
+.company-title {
+    padding-left: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #77818C;
+}
+
+.each-filter {
+    padding-left: 4px;
+}
+
+.filter-button {
+    white-space: nowrap;
+    background-color: white;
+    color: #77818C;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #D8DFE6;
+}
+
+.energy-icon {
+    padding-right: 4px;
+}
+
+.critical-icon {
+    padding-right: 4px;
+}
+
+.filter-button:hover {
+    cursor: pointer;
+}
+
+.filter-selected {
+    background-color: #2188FF;
+    color: white;
+    fill: white;
+}
